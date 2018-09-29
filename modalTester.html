@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Gerardo Gonzalez - CleverSolve</title>
+    <meta name="author" content="Gerardo Gonzalez">
+    <meta name="description" content="Gerardo Gonzalez: Details and Contact information for Web and Mobile App Development.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" media="screen" href="bulma.css" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.4.1/css/bulma.css" rel="stylesheet"/>
+    <!-- <script src="/modal.js"></script> -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+</head>
+
+<body>
+        <button class="toggle-modal">Open Modal</button>
+        <div class="modal" id="modal">
+          <div class="modal-background"></div>
+          <div class="modal-card">
+            <header class="modal-card-head">
+              <p class="modal-card-title">Modal title</p>
+              <button class="delete toggle-modal"></button>
+            </header>
+            <section class="modal-card-body">
+              <!-- Content ... -->
+            </section>
+            <footer class="modal-card-foot">
+              <a class="button is-success toggle-modal">Save changes</a>
+              <a class="button toggle-modal">Cancel</a>
+            </footer>
+          </div>
+        </div>
+</body>
+
+<script>
+var modal = document.getElementById('modal');
+var elements = document.getElementsByClassName('toggle-modal');
+
+for (var i = 0; i < elements.length; i++) 
+{
+  elements[i].addEventListener('click', toggleClass);
+}
+
+function toggleClass() 
+{
+  modal.classList.toggle('is-active');
+}
+</script>
+
+</html>
