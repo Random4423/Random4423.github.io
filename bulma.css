@@ -1301,7 +1301,18 @@ a.has-text-danger:hover, a.has-text-danger:focus {
 
 /* modified */
 .box {
-  background-color: #99b6d3;
+  background-color: #2e2d2d9c;
+  /* background-color: white; */
+  border-radius: 5px;
+  -webkit-box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 1px rgba(10, 10, 10, 0.1);
+          box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 1px rgba(10, 10, 10, 0.1);
+  color: #4a4a4a;
+  display: block;
+  padding: 1.25rem;
+}
+
+.boxMod {
+  background-color: #9694949c;
   /* background-color: white; */
   border-radius: 5px;
   -webkit-box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 1px rgba(10, 10, 10, 0.1);
@@ -5184,7 +5195,8 @@ a.tag:hover {
 }
 
 .title {
-  color: #363636;
+  color: #f1f1f1;
+  /* color: #363636; */
   font-size: 2rem;
   font-weight: 600;
   line-height: 1.125;
@@ -5557,6 +5569,16 @@ a.tag:hover {
 
 .card {
   background-color: white;
+  -webkit-box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 1px rgba(10, 10, 10, 0.1);
+          box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 1px rgba(10, 10, 10, 0.1);
+  color: #4a4a4a;
+  max-width: 100%;
+  position: relative;
+}
+
+.cardMod {
+  /* background-color: white; */
+  background-color: #96949400;
   -webkit-box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 1px rgba(10, 10, 10, 0.1);
           box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 1px rgba(10, 10, 10, 0.1);
   color: #4a4a4a;
@@ -6410,7 +6432,8 @@ a.dropdown-item.is-active {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: whitesmoke;
+  /* background-color: whitesmoke; */
+  background-color: #9694949c;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -6430,7 +6453,8 @@ a.dropdown-item.is-active {
 }
 
 .modal-card-title {
-  color: #363636;
+  /* color: #363636; */
+  color: #d1d1d1;
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
@@ -6452,7 +6476,8 @@ a.dropdown-item.is-active {
 
 .modal-card-body {
   -webkit-overflow-scrolling: touch;
-  background-color: white;
+  /* background-color: white; */
+  background-color: #9694949c;
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;

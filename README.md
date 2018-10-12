@@ -1,10 +1,17 @@
-# Random4423.github.io
+# Read Me
 
-Working on a Homepage type website where the user can store their bookmarks and have access to them regardless of which device or web browser they use. 
-
-## Features
-* Multiple Users with separate content
-* User customizable bookmarks
-* Bookmark Grouping
-* Customizable Background
-
+## Change Log
+* 09/16/18
+    * First Push
+* 09/17/18
+    * Added Breadcrumbs
+    * Added QR Scanner
+    * Separate Pages
+    * Changed Project Layout
+    * Added Transparency
+    * Changed Background
+    * Added Another Video
+    
+## To-Do
+* Redesign Website
+* Add more content
