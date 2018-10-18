@@ -10,12 +10,18 @@
     <!-- <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> -->
     <link rel="shortcut icon" href="GG-Clear-White.png" type="image/png">
     <link rel="stylesheet" type="text/css" media="screen" href="bulma.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="aos-master/dist/aos.css" />
+    <!--    <link rel="stylesheet" type="text/css" media="screen" href="myCSS.css"/>-->
     <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+    
+    <script>
+        AOS.init();
+    </script>
 </head>
 
 <body class="background-body">
     <!--HERO BANNER START-->
-    <section class="hero x-has-shadow is-dark">
+    <section class="hero x-has-shadow is-dark" id="hero">
         <div class="hero-body">
             <!--Center Logo Start-->
             <div class="columns is-centered">
@@ -52,11 +58,41 @@
                     </a>
                 </li>
             </ul>
+
         </nav>
         <!--BREADCRUMBS END-->
+
+        <!--Dropdown-->
+        <div class="dropdown">
+            <div class="dropdown-trigger">
+                <button class="button" aria-haspopup="true" aria-controls="dropdown-menu">
+                    <span>Testing Area</span>
+                    <span class="icon is-small">
+                        <i class="fas fa-angle-down" aria-hidden="true"></i>
+                    </span>
+                </button>
+            </div>
+            <div class="dropdown-menu" id="dropdown-menu" role="menu">
+                <div class="dropdown-content">
+                    <a href="headerShrink.html" class="dropdown-item">
+                        Shrinking Header
+                    </a>
+                    <a href="tester.html" class="dropdown-item">
+                        Tester Page
+                    </a>
+                    <a href="#" class="dropdown-item">
+                        Login Page
+                    </a>
+                     <a href="AOS.html" class="dropdown-item">
+                        AOS
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!--Dropdown end-->
+
     </section>
     <!--HERO BANNER END-->
-
     <section class="section">
         <div class="container">
             <div class="tile is-ancestor">
@@ -90,8 +126,8 @@
 
                                         <div class="content">
                                             <p>
-                                                "I just invent, then wait until man comes around to needing what I've invented." 
-                                                <br/><br/>
+                                                "I just invent, then wait until man comes around to needing what I've invented."
+                                                <br /><br />
                                                 <a href="https://www.brainyquote.com/authors/r_buckminster_fuller">R. Buckminster Fuller</a>
                                             </p>
 
@@ -401,10 +437,12 @@
     <!--MODAL 01-->
 
 
-
+    <script type="text/javascript" src="javaScript.js"></script>
 
 
     <script type="text/javascript" src="modal.js"></script>
+    
+<!--    <script type="text/javascript" src="aos-master/dist/aos.js"></script>-->
 
 
     <!--SCRIPTS-->

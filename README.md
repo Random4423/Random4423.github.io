@@ -1,5 +1,6 @@
 # Read Me
 
+
 ## Change Log
 * 09/16/18
     * First Push
@@ -11,6 +12,11 @@
     * Added Transparency
     * Changed Background
     * Added Another Video
+* 10/18/18
+    * Added Dropdown Menu
+    * Fixed image bug on hero Bar
+    
+    
     
 ## To-Do
 * Redesign Website
